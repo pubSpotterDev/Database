@@ -21,7 +21,7 @@ public class ControllerServer
 		classlist.addBefore("org.eclipse.jetty.webapp.JettyWebXmlConfiguration", "org.eclipse.jetty.annotations.AnnotationConfiguration");
 		
 		//Mappings
-//		ctx.addServlet("servlets.ServletHome","/home"); // Display All Vehicle - Landing Page
+		ctx.addServlet("servlets.ServletHome","/home"); // Display All Vehicle - Landing Page
 //		ctx.addServlet("servlets.ServletLogin", "/login"); //Display Login Page
 //		ctx.addServlet("servlets.ServletEdit", "/edit");  //Display EditForm Page
 //		ctx.addServlet("servlets.ServletDelete", "/delete"); //Use /delete after servlet ServletDelete has been run
